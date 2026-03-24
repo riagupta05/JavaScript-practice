@@ -1,10 +1,5 @@
-function no(num){
-   if (num%2===0){
-    return "even";
-   } else {
-    return "odd";
-   }
+let berry= 0;
+for (let i=1; i<=5; i++) {
+    berry = berry + 1;
 }
-console.log(no(5));
-
-   
+console.log(berry);
